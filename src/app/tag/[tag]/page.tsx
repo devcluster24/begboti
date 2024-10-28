@@ -86,7 +86,7 @@ const TagNews: React.FC<Props> = async ({ params }) => {
           ))}
       </div>
       {news.length > 0 ? (
-        <div className="w-full grid grid-cols-[70%_25%] row-auto items-start gap-[5%]">
+        <div className="w-full grid md:grid-cols-[70%_25%] row-auto items-start gap-[5%]">
           <PaginationClient
             colNum={3}
             itemsPerPage={6}

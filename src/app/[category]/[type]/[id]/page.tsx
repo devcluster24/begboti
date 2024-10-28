@@ -64,7 +64,7 @@ export async function generateMetadata({
           alt: singleNews.headline,
         },
       ],
-      url: `https://kalerpotro.vercel.app/${singleNews.category_name}/${
+      url: `https://begboti24.com/${singleNews.category_name}/${
         type === "news" ? "news" : "video"
       }/${id}`,
       type: "article",

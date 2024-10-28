@@ -21,7 +21,8 @@ const Section1 = async () => {
   const activeNews = news?.filter((item) => item.is_active);
 
   return (
-    <div className="w-full h-auto grid lg:grid-cols-[70%_25%] md:grid-cols-2 grid-cols-1 row-auto lg:gap-[5%] gap-5 items-start py-5 px-5 lg:px-10 xl:px-20 2xl:px-40 4k:px-96 bg-[#F5F5F5]">
+    <div className="w-full h-auto grid lg:grid-cols-[70%_25%] md:grid-cols-2 grid-cols-1 row-auto lg:gap-[5%] gap-5
+     items-start py-5 px-5 lg:px-10 xl:px-20 2xl:px-40 4k:px-96 bg-[#F5F5F5] ">
       {activeNews
         .sort((a, b) => b.id - a.id)
         .slice(0, 1)
@@ -30,7 +31,7 @@ const Section1 = async () => {
             href={`/${newsItem.category_name}/news/${newsItem.id}`}
             key={newsItem.id}
           >
-            <div className="w-full grid lg:grid-cols-2 grid-cols-1 row-auto items-start gap-5 cursor-pointer bg-white p-1">
+            <div className="w-full grid lg:grid-cols-2 grid-cols-1 row-auto items-start gap-5 cursor-pointer bg-white p-1 border border-[#3B82F6] rounded-md shadow-xl">
               <div className="w-full flex flex-col items-start gap-2">
                 <div className="w-full h-[250px] overflow-hidden">
                   <Image

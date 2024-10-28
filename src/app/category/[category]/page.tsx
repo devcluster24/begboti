@@ -60,14 +60,16 @@ const CategoryNews: React.FC<Props> = async ({ params }) => {
 
   return (
     <div className="mb-10 px-5 lg:px-10 xl:px-20 2xl:px-40 4k:px-96 bg-[#F5F5F5] py-10">
-      <div className="flex items-center gap-2 mb-10">
+      {/* heading div */}
+      <div className="flex items-center gap-2 mb-10 ">
         <h1 className="text-xl font-bold text-gray-500">Category</h1>
         <IoMdArrowDropright className="text-[#3B82F6] text-2xl" />
         <h1 className="text-xl font-bold text-[#3B82F6]">
           {decodeURIComponent(params.category)}
         </h1>
       </div>
-      <div className="w-full flex items-center justify-center my-5">
+      {/* nammer */}
+      <div className="w-full flex items-center justify-center my-5 ">
         {banners
           .filter((ad) => ad.page === "NEWS_POST")
           .sort((a, b) => a.order - b.order)
@@ -86,7 +88,7 @@ const CategoryNews: React.FC<Props> = async ({ params }) => {
           ))}
       </div>
       {news.length > 0 ? (
-        <div className="w-full grid grid-cols-[70%_25%] row-auto items-start gap-[5%]">
+        <div className=" w-full grid md:grid-cols-[70%_25%] row-auto items-start gap-[5%]">
           <PaginationClient
             colNum={3}
             itemsPerPage={6}
@@ -95,7 +97,7 @@ const CategoryNews: React.FC<Props> = async ({ params }) => {
           />
           <div className="flex flex-col items-center gap-y-5">
             <div className="w-full bg-white p-2">
-              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 সর্বশেষ
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>
@@ -103,7 +105,7 @@ const CategoryNews: React.FC<Props> = async ({ params }) => {
               </Suspense>
             </div>
             <div className="w-full bg-white p-2">
-              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 পাঠকপ্রিয়
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>

@@ -22,7 +22,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news }) => {
     <div
       onClick={handleClick}
       key={news.id}
-      className="flex items-start flex-col cursor-pointer bg-white p-1"
+      className="flex items-start flex-col cursor-pointer bg-white  border border-[#3B82F6] rounded-md shadow-xl "
     >
       <Image
         src={news?.image}
@@ -34,7 +34,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news }) => {
         blurDataURL={blurImage.url}
         className="w-full h-[200px] object-cover"
       />
-      <div className="py-5 flex flex-col items-start gap-3 w-full">
+      <div className="py-2 flex flex-col items-start gap-3 w-full px-1">
         <h1 className="text-xl font-bold tracking-wider">{news?.headline}</h1>
         <Parser
           text={news?.content}

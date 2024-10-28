@@ -36,8 +36,8 @@ const Section2: React.FC<Props> = async ({ category }) => {
         <div className="lg:w-[25%] md:w-full w-full flex flex-col justify-start items-center md:items-start lg:gap-4 gap-8">
           {filteredNews.slice(0, 7).map((card) => (
             <Link href={`/${card.category_name}/news/${card.id}`} key={card.id}>
-              <div className="flex flex-col items-start gap-3 w-full cursor-pointer bg-white p-1">
-                <div className="flex items-start w-full gap-4">
+              <div className="flex flex-col items-start gap-3 w-full cursor-pointer bg-white ">
+                <div className="flex items-start w-full gap-2 border border-[#3B82F6] rounded-md ">
                   <Image
                     src={card.image}
                     width={80}
@@ -48,7 +48,7 @@ const Section2: React.FC<Props> = async ({ category }) => {
                     blurDataURL={blurImage.url}
                     className="object-cover w-full h-full  rounded-md"
                   />
-                  <h3 className="lg:text-sm text-sm md:text-sm w-full font-medium">
+                  <h3 className="lg:text-sm text-sm md:text-sm w-full font-medium p-[2px]">
                     {card.headline}
                   </h3>
                 </div>
