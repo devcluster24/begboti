@@ -14,30 +14,30 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "আজকের খবর - Kalerpotro",
+    title: "আজকের খবর - বেগবতী২৪.কম",
     description:
-      "Read today's news from Kalerpotro. Stay updated with the latest headlines and articles.",
+      "Read today's news from বেগবতী২৪.কম. Stay updated with the latest headlines and articles.",
     openGraph: {
-      title: "আজকের খবর - Kalerpotro",
+      title: "আজকের খবর - বেগবতী২৪.কম",
       description:
         "Read today's news from Kalerpotro. Stay updated with the latest headlines and articles.",
       images: [
         {
-          url: "https://i.ibb.co/J2sSKhn/kalerpotro-news.jpg",
+          url: "",
           width: 1200,
           height: 630,
-          alt: "Kalerpotro Latest News",
+          alt: "বেগবতী২৪.কম Latest News",
         },
       ],
-      url: "https://kalerpotro.vercel.app/latest-news",
+      url: "https:/begboti24.com/latest-news",
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: "আজকের খবর - Kalerpotro",
+      title: "আজকের খবর - বেগবতী২৪.কম",
       description:
-        "Read today's news from Kalerpotro. Stay updated with the latest headlines and articles.",
-      images: ["https://i.ibb.co/J2sSKhn/kalerpotro-news.jpg"],
+        "Read today's news from বেগবতী২৪.কম Stay updated with the latest headlines and articles.",
+      images: [""],
     },
   };
 }

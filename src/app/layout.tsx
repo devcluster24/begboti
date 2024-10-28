@@ -17,31 +17,31 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "বেগবতী 24",
+    default: "বেগবতী২৪.কম",
     template: "%s | Begboti24",
   },
   description:
-    "Stay updated with the latest news, articles, and insights from Kalerpotro. Explore our comprehensive coverage on various topics.",
+    "Stay updated with the latest news, articles, and insights from বেগবতী২৪.কম. Explore our comprehensive coverage on various topics.",
   openGraph: {
     title: "বেগবতী২৪.কম - Your Source for News",
     description:
-      "Stay updated with the latest news, articles, and insights from Kalerpotro. Explore our comprehensive coverage on various topics.",
+      "Stay updated with the latest news, articles, and insights from বেগবতী২৪.কম. Explore our comprehensive coverage on various topics.",
     images: [
       {
         url: "https://i.ibb.co/J2sSKhn/kalerpotro-news.jpg",
         width: 1200,
         height: 630,
-        alt: "Kalerpotro",
+        alt: "বেগবতী২৪.কম",
       },
     ],
-    url: "https://kalerpotro.vercel.app",
+    url: "https://begboti24.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kalerpotro - Your Source for News",
+    title: "বেগবতী২৪.কম - Your Source for News",
     description:
-      "Stay updated with the latest news, articles, and insights from Kalerpotro. Explore our comprehensive coverage on various topics.",
+      "Stay updated with the latest news, articles, and insights from বেগবতী২৪.কম. Explore our comprehensive coverage on various topics.",
     images: ["https://i.ibb.co/J2sSKhn/kalerpotro-news.jpg"],
   },
 };

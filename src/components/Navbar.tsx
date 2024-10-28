@@ -67,7 +67,7 @@ const Navbar: FC = async () => {
           </Link>
           <div className="flex items-center gap-3">
             <Link href="/latest">
-              <p className="bg-red-600 rounded-md text-white font-medium lg:px-4 px-2 w-full py-2 lg:text-base text-xs">
+              <p className="bg-[#3B82F6] rounded-md text-white font-medium lg:px-4 px-2 w-full py-2 lg:text-base text-xs">
                 আজকের খবর
               </p>
             </Link>
@@ -95,7 +95,7 @@ const Navbar: FC = async () => {
           </div>
         </Link>
         <div className="flex lg:hidden md:hidden flex-row gap-3 items-center justify-between mt-5">
-          <div className="font-bold lg:text-lg text-lg text-red-600">
+          <div className="font-bold lg:text-lg text-lg text-[#3B82F6]">
             {dateToday}
           </div>
           <div className="flex items-center lg:gap-3 gap-2">

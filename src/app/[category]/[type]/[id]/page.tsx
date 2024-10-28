@@ -115,7 +115,7 @@ const NewsDetails: FC<NewsDetailsProps> = async ({ params }) => {
                     {singleNews.editor_name}
                   </span>
                   <span className="text-blue-300">||</span>
-                  <span className="italic text-gray-500"> কালেরপত্র.কম</span>
+                  <span className="italic text-gray-500">বেগবতী২৪.কম</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-500 text-sm">
                   <IoTimeOutline className="text-red-600 text-lg" />
