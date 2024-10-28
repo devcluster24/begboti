@@ -7,7 +7,7 @@ export default function NotFound() {
       <IoWarning className="text-5xl" />
       <h2 className="text-3xl font-bold">Not Found</h2>
       <Link
-        className="bg-red-600 px-4 py-2 rounded-lg text-white font-medium"
+        className="bg-[#3B82F6] px-4 py-2 rounded-lg text-white font-medium"
         href="/"
       >
         Return Home

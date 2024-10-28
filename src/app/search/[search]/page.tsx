@@ -62,8 +62,8 @@ const TagNews: React.FC<Props> = async ({ params }) => {
     <div className="mb-10 px-5 lg:px-10 xl:px-20 2xl:px-40 4k:px-96 bg-[#F5F5F5] py-10">
       <div className="flex items-center gap-2 mb-10">
         <h1 className="text-xl font-bold text-gray-500">Search Result</h1>
-        <IoMdArrowDropright className="text-red-600 text-2xl" />
-        <h1 className="text-xl font-bold text-red-600">
+        <IoMdArrowDropright className="text-[#3B82F6] text-2xl" />
+        <h1 className="text-xl font-bold text-[#3B82F6]">
           {decodeURIComponent(params.search)}
         </h1>
       </div>
@@ -95,7 +95,7 @@ const TagNews: React.FC<Props> = async ({ params }) => {
           />
           <div className="flex flex-col items-center gap-y-5">
             <div className="w-full bg-white p-2">
-              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 সর্বশেষ
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>
@@ -103,7 +103,7 @@ const TagNews: React.FC<Props> = async ({ params }) => {
               </Suspense>
             </div>
             <div className="w-full bg-white p-2">
-              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 পাঠকপ্রিয়
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>

@@ -42,7 +42,7 @@ const Navbar: FC = async () => {
     <nav className={`w-full`}>
       <div className="w-full px-3 lg:px-16 xl:px-20 2xl:px-40 4k:px-96 py-5">
         <div className="lg:flex md:flex hidden items-center justify-between">
-          <div className="font-bold lg:text-lg text-xs text-red-600">
+          <div className="font-bold lg:text-lg text-xs text-[#3B82F6]">
             {dateToday}
           </div>
           <Link href="/">

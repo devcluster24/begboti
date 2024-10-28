@@ -99,7 +99,7 @@ const NewsShareButton: React.FC<NewsShareButtonProps> = ({
         <IoCopyOutline className="text-xl text-gray-600" />
         {iconName && <span>Copy Link</span>}
         {copied && (
-          <span className="absolute -top-5 left-0 right-0 ml-2 text-sm text-red-600">
+          <span className="absolute -top-5 left-0 right-0 ml-2 text-sm text-[#3B82F6]">
             Copied!
           </span>
         )}

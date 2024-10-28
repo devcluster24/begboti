@@ -71,7 +71,7 @@ const LatestNews: React.FC = async () => {
       </div>
 
       <div className="flex items-center mb-10">
-        <h1 className="text-3xl font-bold text-red-600">আজকের খবর</h1>
+        <h1 className="text-3xl font-bold text-[#3B82F6]">আজকের খবর</h1>
       </div>
 
       {todayDateNews.length > 0 ? (

@@ -118,7 +118,7 @@ const NewsDetails: FC<NewsDetailsProps> = async ({ params }) => {
                   <span className="italic text-gray-500">বেগবতী২৪.কম</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-500 text-sm">
-                  <IoTimeOutline className="text-red-600 text-lg" />
+                  <IoTimeOutline className="text-[] text-lg" />
                   <span>প্রকাশিত:</span>
                   <span>{dateToTime(singleNews.created_at)}</span>
                 </div>
@@ -217,7 +217,7 @@ const NewsDetails: FC<NewsDetailsProps> = async ({ params }) => {
               </div>
             )}
             <div className="w-full mt-5 bg-white p-2">
-              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 সর্বশেষ
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>
@@ -225,7 +225,7 @@ const NewsDetails: FC<NewsDetailsProps> = async ({ params }) => {
               </Suspense>
             </div>
             <div className="w-full mt-5 bg-white p-2">
-              <div className="bg-red-600 text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
+              <div className="bg-[#3B82F6] text-white font-bold text-lg py-3 rounded-md flex items-center justify-center">
                 পাঠকপ্রিয়
               </div>
               <Suspense fallback={<h1>Loading...</h1>}>
@@ -236,7 +236,7 @@ const NewsDetails: FC<NewsDetailsProps> = async ({ params }) => {
         </div>
       </div>
       <div className="w-full lg:mt-10 mt-40 bg-white p-3">
-        <div className="bg-red-600 px-4 py-3 text-white font-bold text-center inline-flex items-center gap-2">
+        <div className="bg-[#3B82F6] px-4 py-3 text-white font-bold text-center inline-flex items-center gap-2">
           <h1 className="">আরো পড়ুন</h1>
           <RxDoubleArrowRight className="text-xl" />
         </div>

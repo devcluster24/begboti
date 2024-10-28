@@ -37,7 +37,7 @@ const Banner: React.FC<BannerProps> = ({
       {closable && (
         <button
           onClick={() => setHideBanner(true)}
-          className="absolute top-0 -right-0 text-red-600 text-2xl rounded-full"
+          className="absolute top-0 -right-0 text-[#3B82F6] text-2xl rounded-full"
         >
           <IoCloseCircle />
         </button>
